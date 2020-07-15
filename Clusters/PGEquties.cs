@@ -450,11 +450,11 @@ namespace PolygonApi.Clusters
 		public string Type;
 		public string Symbol;
 		public double LastPrice;
-		public double LastSize;
+		public int LastSize;
 		public double Bid;
 		public double Ask;
-		public double BidSize;
-		public double AskSize;
+		public int BidSize;
+		public int AskSize;
 		public int AccumulatedVolume;
 		public DateTime TimeStamp;
 		public long UnixNanoSecs;
